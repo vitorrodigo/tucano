@@ -1,0 +1,50 @@
+body{
+    font: 12pt Arial;
+    background: rgb(80, 73, 73);
+    background: radial-gradient(circle, rgb(209, 33, 33) 0%,
+    rgba(30,15,38,1) 86%,rgb(176, 5, 85)100%);
+}
+nav{
+    background: rgba(105,52,132,1);
+    background: linear-gradient(0deg,rgb(77, 73, 80)44%,
+    rgb(52, 44, 44)100%);
+    text-align: right;
+    padding: 20px;
+}
+#btn{
+    padding: 0.5em 1.5em;
+    box-shadow: -5px 6px #b1a8b6;
+    border: 3px solid #2d2b2d;
+    color: #a7a3a8;
+    font-weight: 500;
+    font-size: 2em;
+    transition: all ease-in 0.3s;
+    border-radius: 50px;
+}
+#bnt a {
+    text-align: center;
+    font-size: 35px;
+    color: #1a141e;
+    text-decoration: none;
+}
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+.produtos img{
+    width: 200px;
+    height: 200px;
+}
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    margin-top: 10px;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 3px solid #693484;
+    border-radius: 10px 20px 10px 40px;
+}
